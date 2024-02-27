@@ -1,0 +1,87 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+textarea {
+    height: 150px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#button-section {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#encode-button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#decode-button {
+    background-color: #3F51B5;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#output-text {
+    margin-top: 20px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    /* Add a subtle border to separate the footer */
+}
+
+footer p {
+    font-size: 14px;
+    color: #333;
+    /* Use a slightly darker text color for better contrast */
+}
+
+footer a {
+    color: #333;
+    /* Match the text color for consistency */
+    text-decoration: none;
+    /* Remove underline from the link */
+}
+
+footer a:hover {
+    color: #000;
+    /* Change link color on hover for better feedback */
+}
