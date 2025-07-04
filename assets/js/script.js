@@ -1,4 +1,4 @@
-//Making accessible these elements from HTML to JavaScript
+
 const textInput = document.getElementById('text-input');
 const outputText = document.getElementById('output-text');
 const encodeButton = document.getElementById('encode-button');
